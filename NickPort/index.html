@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8f70dafc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio Nick</title>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div class="logo-wrap slide-left">
+            <a href="#" class="logo">Portfolio</a>
+          </div>
+          <ul class="nav-ul slide-right">
+            <li class="nav-li"><a href="#about" class="nav-a">about</a></li>
+            <li class="nav-li">
+              <a href="#reviews" class="nav-a">projects</a>
+            </li>
+            <li class="nav-li"><a href="#event" class="nav-a">skills</a></li>
+            <li class="nav-li"><a href="#contact" class="nav-a">contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO  -->
+    <section class="hero">
+      <img src="images/circle half.png" class="circle-one" />
+      <img src="images/Ellipse 2.png" class="circle-two" />
+      <div class="container">
+        <div class="split">
+          <div class="hero-left hidden">
+            <h1 class="h1">Nicholas Garner Front end developer</h1>
+            <p class="body">Front End Web Developer</p>
+            <div class="btn-wrap"></div>
+          </div>
+          <div class="hero-right hidden">
+            <img src="images/hero comp.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY  -->
+    <section class="company hiddenb">
+      <div class="container"></div>
+      <div class="marque" id="marque-ani">
+        <div class="marque-content">
+          <li></li>
+          <li><img src="images/tech.svg" /></li>
+          <li></li>
+          <li><img src="images/forbs shadow.svg" /></li>
+          <li></li>
+          <li><img src="images/big shadow.svg" /></li>
+          <li></li>
+          <li><img src="images/fast shadow.svg" /></li>
+        </div>
+      </div>
+
+      <div class="marque-fixed" id="marque-fixed">
+        <div class="marque-list"></div>
+      </div>
+    </section>
+
+    <!-- BUY  -->
+    <section class="buy slide-left" id="about">
+      <div class="container">
+        <div class="split">
+          <div class="buy-left">
+            <img src="images/1675363618454.jpg" alt="" />
+          </div>
+          <div class="buy-right normalizer">
+            <h2 class="subheading">About Me</h2>
+            <h1 class="h1"></h1>
+            <p class="body">
+              As a graduate of Nucamp's Full Stack Coding Bootcamp, I am a
+              skilled developer with a passion for creating innovative and
+              efficient solutions to complex problems. With experience in HTML,
+              CSS, JavaScript, React, and Node.js, I have a strong foundation in
+              front-end and back-end development. I love working in the frontend
+              side but I do enjoy the backend also. in addition to my technical
+              skills, I have strong communication and problem-solving abilities.
+              During my time at Nucamp, I gained valuable experience
+              collaborating with other developers, working on real-world
+              projects
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUY 2  -->
+    <section class="buy-two slide-right"></section>
+
+    <!-- TESTIMONIALS  -->
+    <section class="reviews" id="reviews">
+      <div class="container normalizer">
+        <h2 class="review-title subheading hiddenb">Projects</h2>
+        <h1 class="h1 hiddenb">Projects i have Made</h1>
+        <div class="grid-parent">
+          <div class="grid-item normalizer">
+            <img
+              src="images/Jobster app - Google Chrome 3_10_2023 8_16_12 PM.png"
+              class="grid-img"
+            />
+            <h2 class="reg" href=""><a href="https://jobsterproject.netlify.app">Jobster
+            </a>
+            </h2>
+            <p class="body">
+              An app anybody can use and keep track of all job applications.
+              Made Using React.Js
+            </p>
+          </div>
+          <div class="grid-item normalizer">
+            <img src="images/project 5.png" class="grid-img" />
+            <h2 class="reg" href=""><a href="https://nucamp-deploy.web.app/directory">Nucamp campsite</a></h2>
+            <p class="body">Nucamp campsite Website Using React.</p>
+          </div>
+          <div class="grid-item normalizer">
+            <img src="images/project 4.png" class="grid-img" />
+            <h2 class="reg"><a href="https://kegkeganimesite.netlify.app">Anime Quiz App</a></h2>
+            <p class="body">Naruto Quiz Game using JavaScript</p>
+          </div>
+          <div class="grid-item normalizer">
+            <img src="images/project 3.png" class="grid-img" />
+            <h2 class="reg"><a href="https://hangmanclonekeg.netlify.app">Hangman Clone</a></h2>
+            <p class="body">Hangman Clone using typescript</p>
+          </div>
+          <div class="grid-item normalizer">
+            <img
+              src="images/React App - Google Chrome 3_20_2023 10_00_04 PM.png"
+              class="grid-img"
+            />
+            <h2 class="reg"><a href="https://kegkeganime1.netlify.app">Anime Search App</a></h2>
+            <p class="body">Anime Search App Using React and Jikan API</p>
+          </div>
+          <div class="grid-item normalizer">
+            <img
+              src="images/Media Player 3_21_2023 10_52_24 AM.png"
+              class="grid-img"
+            />
+            <h2 class="reg"><a href="https://animechatfloppy13.netlify.app">Floppy bird clone</a></h2>
+            <p class="body">Floppy Bird Clone Using JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT  -->
+    <section class="event slide-left" id="skills">
+      <div class="container">
+        <div class="event-wrap normalizer">
+          <h2 class="subheading">Skills</h2>
+          <h1 class="h1">JavaScript</h1>
+          <h1 class="h1">React</h1>
+          <h1 class="h1">React Native</h1>
+          <h1 class="h1">Bootstrap</h1>
+          <h1 class="h1">TypeScript</h1>
+          <h1 class="h1">HTML</h1>
+          <a href="#" class="btn subheading view-two">View our portfolio</a>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+    <section class="footer" id="contact">
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-5 text-center"></div>
+
+            <div class="col-6 col-sm-5 text-center">
+            <a role="button" class="btn btn-link" href="tel:+12065551234"
+                ><i class="fa fa-phone"></i> 1-206-555-1234</a
+            ><br />
+            </div>
+            <div class="col-6 col-sm-4 text-center"><a
+                role="button"
+                class="btn btn-link"
+                href="https://www.linkedin.com/in/nicholas-garner-534456262/"
+                ><i class="fa fa-linkedin" src="https://www.linkedin.com/in/nicholas-garner-534456262/"></i></a>
+            </div>
+            <div class="col-6 col-sm-5 text-center"><a
+                role="button"
+                class="btn btn-link"
+                href="mailto:campsites@nucamp.co"
+                ><i class="fa fa-envelope-o"></i>nickg13csg@gmail.com</a>
+            </div>
+            <div class="col-6 col-sm-4 text-center"><a
+                role="button"
+                class="btn btn-link"
+                href="https://github.com/kegkeg10"
+                ><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
